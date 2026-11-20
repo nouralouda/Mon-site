@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Hôtel Noural Ouda</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">NOURAL OUDA <span>HÔTEL</span></a>
+        <button class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="chambres.html">Chambres</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="contact.html" class="nav-btn">Réserver</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="background: linear-gradient(rgba(15,30,46,0.65), rgba(15,30,46,0.75)), url('hotel.jpg') center/cover; min-height: 88vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 40px 20px;">
+        <span class="section-tag" style="letter-spacing: 4px; margin-bottom: 1rem;">Bienvenue à Bangui</span>
+        <h1 style="font-size: clamp(2.4rem, 5vw, 3.8rem); margin-bottom: 1rem;">Hôtel Noural Ouda</h1>
+        <p style="max-width: 650px; font-size: 1.1rem; margin-bottom: 2.5rem; color: #e0e0e0;">Un havre de paix alliant raffinement contemporain et hospitalité authentique au cœur de la capitale</p>
+        <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
+            <a href="contact.html" class="btn-primary">Réserver votre séjour</a>
+            <a href="chambres.html" style="border: 2px solid #fff; color: #fff; padding: 12px 30px; border-radius: 30px; font-weight: 600;">Voir nos chambres</a>
+        </div>
+    </div>
+
+    <section>
+        <div class="grid-2">
+            <div>
+                <img src="https://unsplash.com" alt="Réception Hôtel" style="width: 100%; border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.12);">
+            </div>
+            <div>
+                <span class="section-tag">Notre Établissement</span>
+                <h2 style="font-size: 2.3rem; color: var(--primary); margin: 0.5rem 0 1.2rem 0;">L'élégance et le confort absolu</h2>
+                <p style="margin-bottom: 1rem; color: #555;">L'<strong>Hôtel Noural Ouda</strong> vous accueille dans une atmosphère paisible et sécurisée. Que vous soyez en déplacement professionnel ou en voyage privé, notre équipe veille sur votre bien-être 24h/24</p>
+                <p style="margin-bottom: 1.8rem; color: #555;">Profitez de nos chambres climatisées, de notre connexion Wi-Fi haut débit, de notre restaurant gastronomique et d'une alimentation électrique garantie sans coupure</p>
+                <a href="services.html" class="btn-dark">Découvrir nos services</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="section-header">
+            <span class="section-tag">Hébergement</span>
+            <h2>Nos Chambres & Suites</h2>
+            <p>Des espaces calmes et soigneusement décorés pour des nuits reposantes</p>
+        </div>
+        <div class="grid-3">
+            <div class="room-card">
+                <div class="room-img"><img src="ch1.jpg" alt="Standard"></div>
+                <div class="room-body">
+                    <h3>Chambre Standard</h3>
+                    <div class="room-price">35 000 FCFA / nuit</div>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Idéale pour les voyageurs d'affaires recherchant confort et calme</p>
+                    <a href="chambres.html" class="btn-dark" style="text-align: center; margin-top: auto;">Voir les détails</a>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-img"><img src="ch2.jpg" alt="Deluxe"></div>
+                <div class="room-body">
+                    <h3>Chambre Deluxe</h3>
+                    <div class="room-price">50 000 FCFA / nuit</div>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Espace généreux avec coin salon, bureau et petit-déjeuner offert</p>
+                    <a href="chambres.html" class="btn-dark" style="text-align: center; margin-top: auto;">Voir les détails</a>
+                </div>
+            </div>
+            <div class="room-card">
+                <div class="room-img"><img src="ch3.jpg" alt="Suite"></div>
+                <div class="room-body">
+                    <h3>Suite Noural Ouda</h3>
+                    <div class="room-price">85 000 FCFA / nuit</div>
+                    <p style="font-size: 0.9rem; color: #666; margin-bottom: 1.5rem;">Salon privé séparé, service VIP et confort haut de gamme</p>
+                    <a href="chambres.html" class="btn-dark" style="text-align: center; margin-top: auto;">Voir les détails</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me" target="_blank" class="whatsapp-float"><i class="fab fa-whatsapp"></i></a>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <div class="logo" style="margin-bottom: 1rem;">NOURAL OUDA <span>HÔTEL</span></div>
+                <p style="font-size: 0.9rem;">L'élégance et l'hospitalité au service de vos séjours à Bangui</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="chambres.html">Nos Chambres</a></li>
+                    <li><a href="services.html">Services & Restaurant</a></li>
+                    <li><a href="galerie.html">Galerie Photos</a></li>
+                    <li><a href="contact.html">Réservation & Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt" style="color:var(--gold);"></i> Bangui, RCA</li>
+                    <li><i class="fas fa-phone" style="color:var(--gold);"></i> +236 74 23 77 48</li>
+                    <li><i class="fas fa-envelope" style="color:var(--gold);"></i> contact@hotelnouralouda.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2026 Hôtel Noural Ouda. Tous droits réservéss</div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
+
